@@ -1,5 +1,5 @@
 name: massage
-on: [push]
+on: [workflow_dispatch]
 jobs:
   head-massage:
       runs-on: ubuntu-latest
