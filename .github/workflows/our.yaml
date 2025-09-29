@@ -1,1 +1,29 @@
+name: massage
+on: [push]
+jobs:
+  head-massage:
+      runs-on: ubuntu-latest
+      steps:
+       - name: oling
+         run: echo "which oil navaratan/soyabin"
+       - name: Slow Massage
+         run: echo "slowww start!"
+       - name: Massage Done
+         run: echo "Massage Done!"
+  thigh-massage:
+        runs-on: ubuntu-latest
+        steps:
+         - name: Change your cloths
+           run: echo "Aao kabhi haveli pe"
+         - name: massage khatam
+           run: echo "Done!"
+        
+  toe-massage:
+      runs-on: ubuntu-latest
+      steps:
+       - name: Ho gaya
+         run: echo "Ho gaya bhai"
+          
+  
+  
 
